@@ -1,0 +1,41 @@
+2023-10-31 12:34:56 - User login successful: username=johndoe, IP=192.168.1.100
+2023-10-31 12:34:57 - User login successful: username=janedoe, IP=192.168.1.101
+2023-10-31 12:34:58 - User login successful: username=bobsmith, IP=192.168.1.102
+2023-10-31 12:34:59 - User login successful: username=alicejones, IP=192.168.1.103
+2023-10-31 12:35:01 - User login successful: username=guestuser, IP=192.168.1.104
+2023-10-31 12:35:02 - User login successful: username=testuser, IP=192.168.1.105
+2023-10-31 12:35:03 - User login successful: username=admin, IP=192.168.1.106
+2023-10-31 12:35:04 - User login successful: username=superuser, IP=192.168.1.107
+2023-10-31 12:35:06 - User login successful: username=poweruser, IP=192.168.1.108
+2023-10-31 12:35:07 - User login successful: username=manager, IP=192.168.1.109
+2023-10-31 12:35:11 - File uploaded: filename=image.jpg, size=1.2MB, user=johndoe
+2023-10-31 12:35:12 - File uploaded: filename=report.docx, size=3.7MB, user=janedoe
+2023-10-31 12:35:13 - File uploaded: filename=data.csv, size=5.2MB, user=bobsmith
+2023-10-31 12:35:14 - File uploaded: filename=code.py, size=0.8MB, user=alicejones
+2023-10-31 12:35:16 - File uploaded: filename=presentation.pptx, size=2.5MB, user=guestuser
+2023-10-31 12:35:17 - File uploaded: filename=video.mp4, size=10.0MB, user=testuser
+2023-10-31 12:35:18 - File uploaded: filename=spreadsheet.xlsx, size=1.8MB, user=admin
+2023-10-31 12:35:19 - File uploaded: filename=script.js, size=0.2MB, user=superuser
+2023-10-31 12:35:21 - File uploaded: filename=photo.png, size=0.5MB, user=poweruser
+2023-10-31 12:35:22 - File uploaded: filename=design.psd, size=4.0MB, user=manager
+2023-10-31 12:35:26 - API request received: endpoint=/api/v1/users, method=GET, user=johndoe
+2023-10-31 12:35:27 - API request received: endpoint=/api/v1/orders, method=POST, user=janedoe
+2023-10-31 12:35:28 - API request received: endpoint=/api/v1/products/123, method=GET, user=bobsmith
+2023-10-31 12:35:29 - API request received: endpoint=/api/v1/users/456, method=PUT, user=alicejones
+2023-10-31 12:35:31 - API request received: endpoint=/api/v1/orders/789, method=DELETE, user=guestuser
+2023-10-31 12:35:32 - API request received: endpoint=/api/v1/products, method=POST, user=testuser
+2023-10-31 12:35:33 - API request received: endpoint=/api/v1/users/123, method=PATCH, user=admin
+2023-10-31 12:35:34 - API request received: endpoint=/api/v1/orders/456, method=GET, user=superuser
+2023-10-31 12:35:36 - API request received: endpoint=/api/v1/products/789, method=PUT, user=poweruser
+2023-10-31 12:35:37 - API request received: endpoint=/api/v1/orders, method=POST, user=manager
+2023-10-31 12:35:41 - Error occurred: Type=ValidationError, Message=Invalid input data
+2023-10-31 12:35:42 - Error occurred: Type=AuthorizationError, Message=User is not authorized
+2023-10-31 12:35:43 - Error occurred: Type=DatabaseError, Message=Connection lost
+2023-10-31 12:35:44 - Error occurred: Type=NotFoundError, Message=Resource not found
+2023-10-31 12:35:46 - Error occurred: Type=AccessDenied, Message=User does not have permission
+2023-10-31 12:35:47 - Error occurred: Type=ValidationError, Message=Missing required fields
+2023-10-31 12:35:48 - Error occurred: Type=DatabaseError, Message=Query failed
+2023-10-31 12:35:49 - Error occurred: Type=AuthorizationError, Message=Invalid credentials
+2023-10-31 12:35:51 - Error occurred: Type=NotFoundError, Message=File not found
+2023-10-31 12:35:52 - Error occurred: Type=AccessDenied, Message=Access restricted
+
